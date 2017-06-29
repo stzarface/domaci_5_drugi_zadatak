@@ -1,0 +1,82 @@
+
+
+section	{
+	max-width: 47%;
+	text-align: center;
+	margin: 200px auto;
+	background-color: gray;
+	border-radius: 3px;
+	padding: 3px 0 0 3px;
+	}
+
+article	{
+	max-width: 100%;
+	display: inline-block;
+	text-align: center;
+	margin: 3px auto;
+	border-radius: 5px;
+}
+
+.first {
+	background: url("../images/getUp.jpg");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.second	{
+	background: url("../images/comp.png");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.third	{
+	background: url("../images/bedTime.jpg");
+	background-size: cover;
+	background-position: top center;
+	background-repeat: no-repeat;
+}
+
+.circle	{
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	position: relative;
+	top: 40px;
+    left: 75px;
+    background-color: lightgray;
+}
+
+
+p	{
+	max-width: 100%;
+	border-radius: 0 0 5px 5px;
+	display: inline-block;
+	text-align: center;
+	margin: 10px auto 0;
+	background-color: lightgray;
+	padding: 40px 15px 10px;
+	font-family: 'Fresca', sans-serif;
+}
+
+.small-font	{
+	font-size: 0.95em;
+}
+
+.fa {
+	color: white;
+	position: relative;
+	top: 10px;
+}
+
+@media screen and (max-width: 1324px)	{
+	section	{
+		background-color: white;
+	}
+}
+
+
+
+
+
